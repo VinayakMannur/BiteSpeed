@@ -26,7 +26,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
         responseModalBody.innerHTML = `
-                <p>Primary Contact ID: ${result.contact.primaryContatctId}</p>
+                <p>Primary Contact ID: ${result.contact.primaryContactId}</p>
                 <p>Emails: ${result.contact.emails.join(", ")}</p>
                 <p>Phone Numbers: ${result.contact.phoneNumbers.join(", ")}</p>
                 <p>Secondary Contact IDs: ${result.contact.secondaryContactIds.join(
