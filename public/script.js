@@ -7,7 +7,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const phoneNumber = document.getElementById("phoneNumber").value;
 
     try {
-      const response = await fetch("http://localhost:5000/identify", {
+      const response = await fetch("https://app-55985b32-94aa-421a-9c14-d8db6e2a837c.cleverapps.io/identify", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
